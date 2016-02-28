@@ -11,11 +11,11 @@ class DefaultColor:
     HOSTNAME_BG = 238
 
     HOME_SPECIAL_DISPLAY = True
-    HOME_BG = 236  # medium-dark grey
+    HOME_BG = 238  # medium-dark grey
     HOME_FG = 15  # white
-    PATH_BG = 237  # medium grey
+    PATH_BG = 240  # medium grey
     PATH_FG = 250  # light grey
-    CWD_FG = 254  # nearly-white grey
+    CWD_FG = 15  # nearly-white grey
     SEPARATOR_FG = 244
 
     READONLY_BG = 88
@@ -30,12 +30,12 @@ class DefaultColor:
     REPO_DIRTY_FG = 15  # white
 
     JOBS_FG = 39
-    JOBS_BG = 17
+    JOBS_BG = 237
 
     CMD_PASSED_BG = 236
     CMD_PASSED_FG = 15
-    CMD_FAILED_BG = 3
-    CMD_FAILED_FG = 15
+    CMD_FAILED_BG = 94
+    CMD_FAILED_FG = 226
 
     SVN_CHANGES_BG = 148
     SVN_CHANGES_FG = 22  # dark green
