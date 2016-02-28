@@ -19,19 +19,22 @@ class Powerline:
             'lock': 'RO',
             'network': 'SSH',
             'separator': u'\u25B6',
-            'separator_thin': u'\u276F'
+            'separator_thin': u'\u276F',
+            'branch': 'B'
         },
         'patched': {
             'lock': u'\uE0A2',
             'network': u'\uE0A2',
             'separator': u'\uE0B0',
-            'separator_thin': u'\uE0B1'
+            'separator_thin': u'\uE0B1',
+            'branch': u'\uE0A0'
         },
         'flat': {
             'lock': '',
             'network': '',
             'separator': '',
-            'separator_thin': ''
+            'separator_thin': '',
+            'branch': ''
         },
     }
 
@@ -51,6 +54,7 @@ class Powerline:
         self.network = Powerline.symbols[mode]['network']
         self.separator = Powerline.symbols[mode]['separator']
         self.separator_thin = Powerline.symbols[mode]['separator_thin']
+        self.branch_symbol = Powerline.symbols[mode]['branch']
         self.segments = []
 
     def color(self, prefix, code):
