@@ -3,7 +3,7 @@ import re
 import subprocess
 
 def add_jobs_segment(powerline):
-    pppid_proc = subprocess.Popen(['ps', '-p', str(os.getppid()), '-oppid='],
+    pppid_proc = subprocess.Popen(['ps', '-p', str(os.getpid()), '-oppid='],
                                   stdout=subprocess.PIPE)
     pppid = pppid_proc.communicate()[0].decode("utf-8").strip()
 
