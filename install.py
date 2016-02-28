@@ -37,7 +37,7 @@ if __name__ == "__main__":
         # add_segment__[segment] that accepts the powerline object
         source += 'add_{}_segment(powerline)\n'.format(segment)
 
-    source += 'sys.stdout.write(powerline.draw())\n'
+    source += "print('\\r' + powerline.draw(), end='')\n"
 
     try:
         open(OUTPUT_FILE, 'w').write(source)
