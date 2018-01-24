@@ -6,4 +6,4 @@ This is a fork of [milkbikis/powerline-shell](https://github.com/milkbikis/power
 3. I fixed the jobs segment, as it was not working for me in fish. 
 4. I wrote my own theme.
 
-![Screenshot](http://robertoloja.github.io/screenshot.png)
+![Screenshot](https://github.com/robertoloja/powerline-shell/raw/master/Screen%20Shot%202018-01-23%20at%2011.47.42%20PM.png)
